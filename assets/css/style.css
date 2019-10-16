@@ -1,0 +1,23 @@
+.choice {
+        padding-left: 50px;
+}
+
+body {
+    background: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/cartographer.png");
+    
+}
+
+.trivia {
+    display: none;
+}
+
+.texttowhite{
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+    color: white;
+}
+    
+ 
