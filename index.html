@@ -11,9 +11,11 @@
     
 </head>
 <body>
-        <h1 class="jumbotron pt-2 pb-2">TRIVIA!</h1>
+        <h1 class="jumbotron position-fixed p-2" id="timer-text"></h1>
+        <h1 class="jumbotron pt-2 pb-2">MCU TRIVIA!</h1>
+        
         <div class="col-lg-12 text-center" id="intro-container">
-            <p class="text-white" id="intro-text">You have 1 minute to answer 10 questions. Are you ready?</p>
+            <p class="text-white" id="intro-text">You have 1 minute to answer 10 questions about the MCU. Are you ready?</p>
             <button id="ready-button">I'm ready!</button>
         </div>
         
@@ -22,83 +24,83 @@
     <div class="row">
         <div class="col-lg-12">
             <form id="question1-answer" value="c">
-                <h2 class="question">1. Answer is c</h2>
-                <input class="choice" type="radio" name="question1" value="a"> Male <br>
-                <input class="choice" type="radio" name="question1" value="b"> Female <br>
-                <input class="choice" type="radio" name="question1" value="c"> Other <br>
-                <input class="choice" type="radio" name="question1" value="d"> Male <br>
+                <h2 class="question">What is Peter Quill's alter ego?</h2>
+                <input class="choice" type="radio" name="question1" value="a"> Star-Man <br>
+                <input class="choice" type="radio" name="question1" value="b"> Darth Vader <br>
+                <input class="choice" type="radio" name="question1" value="c"> Star-Lord <br>
+                <input class="choice" type="radio" name="question1" value="d"> Galaxy guardian <br>
             </form>
 
             <form id="question2-answer" value="a">
-                    <h2 class="question">2. Answer is b</h2>
-                    <input class="choice" type="radio" name="question1" value="a"> Male <br>
-                    <input class="choice" type="radio" name="question1" value="b"> Female <br>
-                    <input class="choice" type="radio" name="question1" value="c"> Other <br>
-                    <input class="choice" type="radio" name="question1" value="d"> Male <br>
+                    <h2 class="question">2. Which MCU movie featured Spider-Man's first appearance?</h2>
+                    <input class="choice" type="radio" name="question2" value="a"> Captain America: Civil War <br>
+                    <input class="choice" type="radio" name="question2" value="b"> Iron Man 3 <br>
+                    <input class="choice" type="radio" name="question2" value="c"> Avengers: Age of Ultron <br>
+                    <input class="choice" type="radio" name="question2" value="d"> Avengers: Infinity War <br>
             </form>
 
             <form id="question3-answer" value="c">
-                    <h2 class="question">3. Answer is a</h2>
-                    <input class="choice" type="radio" name="question1" value="a"> Male <br>
-                    <input class="choice" type="radio" name="question1" value="b"> Female <br>
-                    <input class="choice" type="radio" name="question1" value="c"> Other <br>
-                    <input class="choice" type="radio" name="question1" value="d"> Male <br>
+                    <h2 class="question">3. What does Stark Industries manufacture in Iron Man 1?</h2>
+                    <input class="choice" type="radio" name="question3" value="a"> Chemicals <br>
+                    <input class="choice" type="radio" name="question3" value="b"> Medicine <br>
+                    <input class="choice" type="radio" name="question3" value="c"> Weapons <br>
+                    <input class="choice" type="radio" name="question3" value="d"> Zhonya's Hourglass<br>
             </form>
 
             <form id="question4-answer" value="d">
-                    <h2 class="question">4. Answer is d</h2>
-                    <input class="choice" type="radio" name="question1" value="a"> Male <br>
-                    <input class="choice" type="radio" name="question1" value="b"> Female <br>
-                    <input class="choice" type="radio" name="question1" value="c"> Other <br>
-                    <input class="choice" type="radio" name="question1" value="d"> Male <br>
+                    <h2 class="question">4. Which war did Captain America fight in?</h2>
+                    <input class="choice" type="radio" name="question4" value="a"> War of 1812 <br>
+                    <input class="choice" type="radio" name="question4" value="b"> Vietnam War <br>
+                    <input class="choice" type="radio" name="question4" value="c"> World War I <br>
+                    <input class="choice" type="radio" name="question4" value="d"> World War II <br>
             </form>
 
             <form id="question5-answer" value="a">
-                    <h2 class="question">5. Answer is a</h2>
-                    <input class="choice" type="radio" name="question1" value="a"> Male <br>
-                    <input class="choice" type="radio" name="question1" value="b"> Female <br>
-                    <input class="choice" type="radio" name="question1" value="c"> Other <br>
-                    <input class="choice" type="radio" name="question1" value="d"> Male <br>
+                    <h2 class="question">5. What is the name of Thor's axe?</h2>
+                    <input class="choice" type="radio" name="question5" value="a"> Stormbreaker <br>
+                    <input class="choice" type="radio" name="question5" value="b"> Mjolnir <br>
+                    <input class="choice" type="radio" name="question5" value="c"> Black Cleaver <br>
+                    <input class="choice" type="radio" name="question5" value="d"> Guh-Huh <br>
             </form>
 
             <form id="question6-answer" value="b">
-                    <h2 class="question">6. Answer is b</h2>
-                    <input class="choice" type="radio" name="question1" value="a"> Male <br>
-                    <input class="choice" type="radio" name="question1" value="b"> Female <br>
-                    <input class="choice" type="radio" name="question1" value="c"> Other <br>
-                    <input class="choice" type="radio" name="question1" value="d"> Male <br>
+                    <h2 class="question">6. Is Dan bad at league?</h2>
+                    <input class="choice" type="radio" name="question6" value="a"> No <br>
+                    <input class="choice" type="radio" name="question6" value="b"> Yes <br>
+                    <input class="choice" type="radio" name="question6" value="c"> No <br>
+                    <input class="choice" type="radio" name="question6" value="d"> No <br>
             </form>
 
-            <form id="question7-answer" value="a">
-                    <h2 class="question">7. Answer is a</h2>
-                    <input class="choice" type="radio" name="question1" value="a"> Male <br>
-                    <input class="choice" type="radio" name="question1" value="b"> Female <br>
-                    <input class="choice" type="radio" name="question1" value="c"> Other <br>
-                    <input class="choice" type="radio" name="question1" value="d"> Male <br>
+            <form id="question7-answer" value="c">
+                    <h2 class="question">7. Before becoming Ant-Man, where did Scott Lang work?</h2>
+                    <input class="choice" type="radio" name="question7" value="a"> Burger King <br>
+                    <input class="choice" type="radio" name="question7" value="b"> Mcdonald's <br>
+                    <input class="choice" type="radio" name="question7" value="c"> Baskin Robbins <br>
+                    <input class="choice" type="radio" name="question7" value="d"> Starbucks <br>
             </form>
 
             <form id="question8-answer" value="d">
-                    <h2 class="question">8. Answer is d</h2>
-                    <input class="choice" type="radio" name="question1" value="a"> Male <br>
-                    <input class="choice" type="radio" name="question1" value="b"> Female <br>
-                    <input class="choice" type="radio" name="question1" value="c"> Other <br>
-                    <input class="choice" type="radio" name="question1" value="d"> Male <br>
+                    <h2 class="question">8. Which of these movies came out first?</h2>
+                    <input class="choice" type="radio" name="question8" value="a"> Doctor Strange <br>
+                    <input class="choice" type="radio" name="question8" value="b"> Captain America: Civil War <br>
+                    <input class="choice" type="radio" name="question8" value="c"> Guardian's of the Galaxy Vol.2 <br>
+                    <input class="choice" type="radio" name="question8" value="d"> Ant-Man <br>
             </form>
 
             <form id="question9-answer" value="c">
-                    <h2 class="question">9. Answer is c</h2>
-                    <input class="choice" type="radio" name="question1" value="a"> Male <br>
-                    <input class="choice" type="radio" name="question1" value="b"> Female <br>
-                    <input class="choice" type="radio" name="question1" value="c"> Other <br>
-                    <input class="choice" type="radio" name="question1" value="d"> Male <br>
+                    <h2 class="question">9. Who is the main villain of Spider-Man: Homecoming?</h2>
+                    <input class="choice" type="radio" name="question9" value="a"> Raven <br>
+                    <input class="choice" type="radio" name="question9" value="b"> Mysterio <br>
+                    <input class="choice" type="radio" name="question9" value="c"> Vulture <br>
+                    <input class="choice" type="radio" name="question9" value="d"> Venom <br>
             </form>
 
             <form id="question10-answer" value="b">
-                    <h2 class="question">10. Answer is b</h2>
-                    <input class="choice" type="radio" name="question1" value="a"> Male <br>
-                    <input class="choice" type="radio" name="question1" value="b"> Female <br>
-                    <input class="choice" type="radio" name="question1" value="c"> Other <br>
-                    <input class="choice" type="radio" name="question1" value="d"> Male <br>
+                    <h2 class="question">10. Which planet are Thor and the Hulk on in Thor: Ragnarok?</h2>
+                    <input class="choice" type="radio" name="question10" value="a"> Knowhere <br>
+                    <input class="choice" type="radio" name="question10" value="b"> Sakaar <br>
+                    <input class="choice" type="radio" name="question10" value="c"> Falskaar <br>
+                    <input class="choice" type="radio" name="question10" value="d"> Rundaar <br>
             </form>
 
             <button class="mb-5" id="submit-button">Submit</button>
