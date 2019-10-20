@@ -12,6 +12,7 @@ $("#ready-button").on("click",function(){
     counter = setInterval(countDown,1000);
 });
 
+//timer
 function countDown(){
     $("#timer-text").text(seconds);
     seconds--;
@@ -25,20 +26,19 @@ function countDown(){
 }
 
 $("#submit-button").on("click",function(){
-    for(var i=1;i <= numberOfQuestions; i++)
+
+    for(var i=1;i <= numberOfQuestions; i++)    //loop to check answers
     {
         if($("#question"+i+"-answer").attr("value") === $("input[name='question"+i+"']:checked").val())
-        {
             score++;
-        }
+        
     }
-
     alert("You scored "+score+" out of 10 points!");
     reset();
 
 });
 
-
+//function to reset the game
 function reset()
 {
     for(var i=1;i <= numberOfQuestions; i++)
@@ -52,8 +52,5 @@ function reset()
         $(".trivia").css({display: "none"});
     }
 }
-
-
-
 
 });
