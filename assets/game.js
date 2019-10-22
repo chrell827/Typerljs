@@ -41,15 +41,15 @@ $("#submit-button").on("click",function(){
 //function to reset the game
 function reset()
 {
+    score = 0;
+    clearInterval(counter);
+    seconds = 60;
+    $("#timer-text").text(seconds);
+    $("#intro-container").css({display: "block"});
+    $(".trivia").css({display: "none"});
     for(var i=1;i <= numberOfQuestions; i++)
     {
         $("#question"+i+"-answer").trigger("reset");
-        score = 0;
-        clearInterval(counter);
-        seconds = 60;
-        $("#timer-text").text(seconds);
-        $("#intro-container").css({display: "block"});
-        $(".trivia").css({display: "none"});
     }
 }
 
